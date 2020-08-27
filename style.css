@@ -114,13 +114,17 @@ h1 {
 
 .para{
   border: none;
-/*background: var(--primary-color);*/
+  /*font-family: 'Merienda', cursive;*/
+  /*font-family: 'Cookie';*/
+/*  font-family: 'Julee', cursive;*/
+    font-family: 'Tillana', cursive;
+/*background: var(--primary-color); previous font size 1.5em*/
 font-size: 1.5em;
 color: #ffffff !important;
 font-weight: 100;
 letter-spacing: 4px;
 padding: 20px;
-text-transform: uppercase;
+/*text-transform: uppercase;*/
 border-radius: 6px;
 display: inline-block;
 margin-top: 20px;
@@ -194,6 +198,51 @@ transform: scale(0.98);
 }
 
 
+
+.typewriter {
+      border: none;
+ /* font-family: 'Merienda', cursive;*/
+  /*font-family: 'Cookie';*/
+/*font-family: 'Julee', cursive;*/
+    /*font-family: 'Tillana', cursive;*/
+/*background: var(--primary-color); previous font size 1.5em*/
+font-size: 1.5em;
+color: #ffffff !important;
+font-weight: 100;
+letter-spacing: 4px;
+padding: 20px;
+/*text-transform: uppercase;*/
+border-radius: 6px;
+display: inline-block;
+margin-top: 20px;
+transition: all 0.3s ease 0s;
+opacity: 0.6
+/*
+  padding-left: 30px;*/
+  display: block;
+}
+.typewriter-text {
+  padding-right: 10px;
+  color: #ffffff !important;
+  font-weight: 100;
+    letter-spacing: 4px;
+    opacity: 0.6;
+  border-right: solid #ffffff 7px;
+  text-transform: uppercase;
+  animation: cursor 1s ease-in-out infinite;
+/*  font-weight: bold;*/
+}
+@keyframes cursor {
+  from { border-color: #ffffff !important; }
+  to { border-color: transparent; }
+}
+
+@media (max-width: 767.98px) {
+  .typewriter { font-size: 15px; }
+}
+@media (min-width: 768px) {
+  .typewriter { font-size: 26px; }
+}
 
 }
 
